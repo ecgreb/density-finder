@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/manufacturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#ffaa66cc"
+        android:text="Manufacturer" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#ffffbb33"
+        android:text="Model" />
+    
+    <TextView
+        android:id="@+id/release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#ffff4444"
+        android:text="Release" />
+
+    <TextView
+        android:id="@+id/resolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#ff00ddff"
+        android:text="Resolution" />
+
+    <TextView
+        android:id="@+id/density"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#ff99cc00"
+        android:text="Density" />
+
+</LinearLayout>
+

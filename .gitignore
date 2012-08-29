@@ -1,0 +1,23 @@
+# Android 
+gen
+
+# Maven
+target
+
+# IntelliJ 
+*.iml
+.idea
+out
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# Ant
+local.properties
+project.properties
+
+# Mac
+.DS_Store
+
