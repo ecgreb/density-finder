@@ -1,4 +1,4 @@
-package com.howaboutwe.density;
+package com.howaboutwe.android.densityfinder;
 
 import android.app.Activity;
 import android.os.Build;
@@ -12,7 +12,7 @@ public class DensityActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
+
         TextView manufacturer = (TextView) findViewById(R.id.manufacturer);
         manufacturer.setText(Build.MANUFACTURER);
 
